@@ -533,3 +533,44 @@ body {
   color: #0077b5;
 }
 
+.experience-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.experience-header h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.experience-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.experience-details h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.experience-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
